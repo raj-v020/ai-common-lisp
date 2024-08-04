@@ -12,7 +12,7 @@
       nil
       (append (Adj) (Adj*))))
 (defun PP* ()
-  (if (random-elt '(t f))
+  (if (random-elt '(t nil))
       (append (PP) (PP*))
       '()))
            
